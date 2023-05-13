@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name" : "Sussy Balls",
+    "description": "Makes balls sussy",
+    "version" : "1",
+    "icons":{
+    "16":  "/images/potato.ico" ,
+    "48":  "/images/potato.ico" ,
+    "128": "/images/potato.ico" 
+},
+"content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["main.js"]
+}],
+"permissions":
+    [
+      
+        "contextMenus",
+        "activeTab"
+    
+    ]
+
+}
