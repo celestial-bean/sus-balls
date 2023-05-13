@@ -12,7 +12,7 @@ go to chrome extension and activate dev mode
 click "load unpacked"
 
 # step 4
-add the "sus balls" folder
+add the "sus-balls-main" folder (or whatever you named it)
 
 # step 5 
 highlight some balls
